@@ -8,14 +8,22 @@ The project performs full-cycle data processing: loading → cleaning → vector
 
 ## 🧠 Overview
 
-This repository provides:
-- **Data standardization** across popular spam datasets (Enron, SpamAssassin, TREC2007)
-- **Baseline models** for benchmarking
-- **Transformer-based classifier (DistilBERT)** for advanced text understanding
-- **Automated reporting** (CSV metrics + confusion matrices)
-- **GPU support** for accelerated training
+This repository provides a comprehensive framework for **spam email detection** and experimentation. It includes:
 
-Code and test results on RoBERTA can be found at https://github.com/yueqiangwu/CS409_final_project
+- 📊 **Data Standardization** — unified preprocessing across major public datasets:
+  - Enron Email Dataset  
+  - SpamAssassin  
+  - TREC 2007  
+
+- ⚙️ **Baseline Models (Linear SVM, Logistic Regression, Narive Bayes)** — classic machine learning benchmarks for comparison and reproducibility.
+
+- 🤖 **Transformer-Based Classifier (DistilBERT, RoBERTa)** — fine-tuned for advanced semantic understanding of email content.
+
+- 📈 **Automated Reporting** — generates detailed evaluation metrics in CSV format and visual **confusion matrices**.
+
+For additional transformer experiments and RoBERTa-based results, please visit:  
+🔗 [RoBERTa Code & Results Repository](https://github.com/yueqiangwu/CS409_final_project)
+
 ---
 
 ## 📁 Project Structure
