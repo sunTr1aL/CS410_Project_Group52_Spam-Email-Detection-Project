@@ -26,15 +26,6 @@ For additional transformer experiments and RoBERTa-based results, please visit:
 
 ---
 
-## 📁 Project Structure
-experiments/
-random_split/ # Confusion matrices (random split)
-time_split/ # Confusion matrices (time-based split)
-summary/ # Metrics and evaluation summaries
-bert_output/ # [Optional] Temporary BERT training output
-baseline_eval.py # Runs baseline models
-bert_eval.py # Runs DistilBERT fine-tuning and evaluation
-
 ## 🧩 Tested Datasets
 
 | Dataset        | Description |
