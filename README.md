@@ -45,24 +45,8 @@ bert_eval.py # Runs DistilBERT fine-tuning and evaluation
 
 To use your own dataset, just place a CSV under `data/raw/` and modify the loader in `baseline_eval.py`.
 
-## 📊 Example Metrics
-
-Below are example performance results comparing traditional models and DistilBERT on common spam detection datasets.
-
-| Dataset       | Model         | Accuracy | Precision | Recall | F1 Score |
-|----------------|---------------|-----------|------------|---------|-----------|
-| Enron          | Naive Bayes   | 0.93      | 0.92       | 0.93    | 0.92      |
-| Enron          | Logistic Reg. | 0.94      | 0.93       | 0.94    | 0.94      |
-| Enron          | DistilBERT    | **0.96**  | **0.95**   | **0.96**| **0.95**  |
-| SpamAssassin   | Naive Bayes   | 0.91      | 0.90       | 0.91    | 0.90      |
-| SpamAssassin   | Logistic Reg. | 0.93      | 0.92       | 0.93    | 0.93      |
-| SpamAssassin   | DistilBERT    | **0.95**  | **0.94**   | **0.95**| **0.94**  |
-| TREC2007       | Naive Bayes   | 0.89      | 0.88       | 0.89    | 0.88      |
-| TREC2007       | Linear SVM    | 0.91      | 0.90       | 0.91    | 0.90      |
-| TREC2007       | DistilBERT    | **0.94**  | **0.93**   | **0.94**| **0.93**  |
-
 📄 **Metrics Source:**  
-All values are computed from the output files located in:
+All test results are included in:
 data/experiments/summary/baseline_metrics.csv
 data/experiments/summary/baseline_metrics_bert.csv
 
